@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vidito/vidicss@1.3/styles.min.css">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+</head>
+
+<body>
+    <art>
+        <h1>Find Your Next Book 📚</h1>
+        <textarea id="query" placeholder="Describe the type of book you want to read..."></textarea>
+        <button onclick="getRecommendations()">Recommend Books</button>
+
+        <article style="margin-top: 10px;" id="results"></article>
+        </div>
+
+        <footer>
+            <p>Vahid Niamadpour @2025</p>
+        </footer>
+
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
